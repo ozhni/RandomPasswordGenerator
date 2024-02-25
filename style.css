@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-container {
+  background-color: rgb(248, 177, 210);
+  width: 27%;
+  padding: 20px 20px 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  margin: 5px;
+}
+.password-container h2 {
+  font-family: cursive;
+}
+
+.input-container {
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  letter-spacing: 4px;
+  font-family: Consolas, Menlo, "courier new", monospace;
+}
+.input::placeholder {
+  letter-spacing: 0;
+}
+
+.fa-copy {
+  cursor: pointer;
+  opacity: 0.3;
+}
+.fa-copy:hover {
+  opacity: 0.7;
+}
+
+.btn {
+  color: aliceblue;
+  background-color: black;
+  border-radius: 5px;
+  height: 30px;
+  padding: 0 15px;
+  margin-top: 10px;
+  font-family: cursive;
+}
